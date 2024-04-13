@@ -62,7 +62,7 @@ function circleChaptaKaro() {
     timeout = setTimeout(function () {
       document.querySelector(
         "#minicircle"
-      ).style.transform = `translate(${dets.clientX}px, ${dets.clientY}px) scale(1, 1)`;
+      ).style.transform = `translate(${dets.clientX}px, ${dets.clientY}px) scale(0.8, 0.8)`;
     }, 100);
   });
 }
